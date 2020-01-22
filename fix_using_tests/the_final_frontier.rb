@@ -10,16 +10,16 @@ def state_log(star_date)
 end
 
 def crew
-  crew = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
+  binding.pry
 end
 
 def engage
   date = generate_star_date
   state_log(date)
-  crew
   greet_crew(crew)
 end
