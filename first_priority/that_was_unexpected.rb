@@ -1,5 +1,4 @@
 require "pry"
-require_relative
 
 class Person
   attr_accessor :name, :candy_lover
@@ -29,4 +28,3 @@ class Person
         puts "not a ballin candy lover"
     end
   end
-end
