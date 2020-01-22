@@ -8,7 +8,7 @@ def state_log(star_date)
 end
 
 def crew
-  crew = ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
+  ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
@@ -18,5 +18,6 @@ end
 def engage
   date = generate_star_date
   state_log(date)
+  crew
   greet_crew(crew)
 end
